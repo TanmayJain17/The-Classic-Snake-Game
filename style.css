@@ -1,0 +1,105 @@
+/*#divBox{
+    width: 100px;
+    height: 100px;
+    background-color: #272727;
+}*/
+#heading{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:xx-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+*{
+    background-color: whitesmoke;
+}
+#section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: monospace;
+}
+#myCanvas{
+    
+    width: 820px;
+    height: 420px;
+    background-color: #272727;
+    border: solid 10px red;
+    border-style:groove ;
+
+}
+#score{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    
+}
+#physButton{
+    display: flex;
+    
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: row;
+    
+}
+.arrowK{
+    font-size: xx-large;
+}
+
+
+@media(max-width: 850px){
+    #myCanvas{
+        width:730px;
+        height: 400px;
+    }
+}
+@media(max-width: 760px){
+    #myCanvas{
+        width:700px;
+        height: 380px;
+    }
+}
+
+@media(max-width: 750px){
+    #myCanvas{
+        width:630px;
+        height: 320px;
+    }
+}
+@media(max-width: 640px){
+    #myCanvas{
+        width:560px;
+        height: 280px;
+    }
+}
+@media(max-width: 581px){
+    #myCanvas{
+        width:510px;
+        height: 250px;
+        border: solid 7px red;
+        border-style:groove ;
+    }
+}
+@media(max-width: 530px){
+    #myCanvas{
+        width:450px;
+        height: 250px;
+        border: solid 5px red;
+        border-style:groove ;
+    }
+}
+@media(max-width: 470px){
+    #myCanvas{
+        width:425px;
+        height: 250px;
+        border: solid 5px red;
+        border-style:groove ;
+    }
+}
